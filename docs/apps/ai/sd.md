@@ -75,21 +75,37 @@ outline: 'deep'
 	表示进程达到80%之前生成白花，80%之后生成灌木
 
 ## 👨‍💻3 出图参数
+
 ### 采样步数
+
 一般20+即可，算力充足可以到30-40
+
 ### 采样方法
+
 一般参考模型推荐，或选取常用的
+
 ### 分辨率
+
 一般512\*512，然后高清修复
+
 ### 面部修复
+
 可勾选
+
 ### 平铺
+
 一般用于无缝连接的平铺图案
+
 ### 提示词相关性
+
 一般7-12
+
 ### 随机种子
+
 可控制生成构图稳定性
+
 ### 批次数量
+
 数量不建议动
 
 ## 🏞️4 图生图
@@ -113,61 +129,104 @@ outline: 'deep'
 > [https://huggingface.co/models](https://huggingface.co/models)
 
 **分类关键词：**
+
 	二次元：illustration,painting,sketch,drawing,painting,comic,anime,catoon
+
 	真实系：photography,photo,realistic,pho-torealistic,RAW photo
+
 	2.5D：3D,render,chibi,digital art,concept art,{realistic}
+
 **模型推荐：**
-	**二次元**：
+
+	二次元：
+
 		Anything V5
+
 		Counterfeit V2.5
+
 		Dreamlike Diffusion
-	**真实系**：
+
+	真实系：
+
 		Deliberate
+
 		Realistic Vision
+
 		L.O.F.I
-	**2.5D**：
+
+	2.5D：
+
 		Never Ending Dream(NED)
+
 		Protogen(Realistic)
+
 		国风3(GuoFeng3)
 
+
 ## 🔍6 图片放大的三种方法
+
 ### 文生图 → 高清修复（Hi-Res Fix）
+
 **重绘幅度**：建议0.3-0.5
+
 **放大算法**：差别不大，可以选新版本，或者根据模型推荐
+
 ### 图生图 → SD放大（SD Upscale）
+
 图生图更改分辨率就相当于高清修复，放大算法可以在设置修改
+
 Upscale 相当于分块放大再合并
+
 **使用方法**：在脚本里选择SD放大（SD Upscale）脚本
+
 **生成尺寸**：原图尺寸+重叠尺寸
+
 ### 后期处理 → 放大算法
+
 相当于重绘为0的高清修复，不涉及扩散过程，速度很快
 
 ## 📛7 Embeddings（词嵌入）
+
 相当于对checkpoints的书签，可以控制人物角色、画面风格、负面效果
+
 **使用方法**：在提示词里面加入Embeddings咒语即可
 
 ## 👜8 LoRa（低秩适应模型）
+
 更加准确地表达角色形象、画面风内容等
+
 **使用方法**：在提示词中用`<lora:[name]>`调用，有些LoRa可能会推荐配合提示词
+
 **注意**：LoRa可能会影响画风，可以通过降低权重实现`<lora:[name]:0.6>`，建议0.5-0.8
 
 ## 🌐9 Hypernetwork（超网络）
+
 实现的效果和LoRa类似，一般用于改变画风
+
 **使用方法**：~~设置-附加网络-将超网络添加至提示词~~（最新整合包已不需要）
 
 ## 🖌️10 局部重绘
+
 easy~
+
 **涂鸦** → 通过涂鸦+prompt生成图片
+
 **局部重绘** → 选定蒙版重绘区域
+
 **涂鸦重回** → 通过涂鸦+图生图精准重绘
+
 **上传蒙版重绘** → 通过ps绘制精确蒙版
 
 ## 👜11 LoRa
+
 **调用方式**：
+
 1. 在提示词中输入`<Lora:[name]>`
 2. 在下面的菜单里选取（实质还是提示词）
 3. additional networks插件
+
 **应用思路**：
+
 1. 人物角色形象
 2. 画风或风格
 3. 概念
