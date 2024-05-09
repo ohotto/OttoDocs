@@ -1,6 +1,6 @@
 ---
 title: Git
-order: -1
+order: 0
 outline: 'deep'
 ---
 

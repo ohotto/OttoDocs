@@ -45,43 +45,48 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     sidebar: generateSidebar(vitepressSidebarOptions),
     nav: [
-      { 
-        text: '云端实践',
-        items: [
-          {
-            items: [
-              { text: '云端实践☁️', link: '/cloud/' },
-              { text: ' - VPS相关', link: '/cloud/VPS/' },
-              { text: ' - VitePress', link: '/cloud/VitePress/' },
-            ]
-          }
-        ]
-      },
-      {
-        text: '本地实践',
-        items: [
-          {
-            items: [
-              { text: '本地实践🏠', link: '/local/' },
-              { text: ' - 环境搭建', link: '/local/env/' },
-              { text: ' - 开发板卡', link: '/local/cards/' },
-            ]
-          }
-        ]
-      },
-      {
-        text: '软件技巧',
-        items: [
-          {
-            items: [
-              { text: '软件技巧💻', link: '/apps/' },
-              { text: ' - AI应用', link: '/apps/ai/' },
-              { text: ' - 学习相关', link: '/apps/study/' },
-            ]
-          }
-        ]
-      }
+      { text: '云端实践', link: '/cloud/VPS/scripts' },
+      { text: '本地实践', link: '/local/env/git' },
+      { text: '软件技巧', link: '/apps/ai/sd' }
     ],
+    // nav: [
+    //   { 
+    //     text: '云端实践',
+    //     items: [
+    //       {
+    //         items: [
+    //           { text: '云端实践☁️', link: '/cloud/' },
+    //           { text: ' - VPS相关', link: '/cloud/VPS/' },
+    //           { text: ' - VitePress', link: '/cloud/VitePress/' },
+    //         ]
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     text: '本地实践',
+    //     items: [
+    //       {
+    //         items: [
+    //           { text: '本地实践🏠', link: '/local/' },
+    //           { text: ' - 环境搭建', link: '/local/env/' },
+    //           { text: ' - 开发板卡', link: '/local/cards/' },
+    //         ]
+    //       }
+    //     ]
+    //   },
+    //   {
+    //     text: '软件技巧',
+    //     items: [
+    //       {
+    //         items: [
+    //           { text: '软件技巧💻', link: '/apps/' },
+    //           { text: ' - AI应用', link: '/apps/ai/' },
+    //           { text: ' - 学习相关', link: '/apps/study/' },
+    //         ]
+    //       }
+    //     ]
+    //   }
+    // ],
     search: {
       provider: 'local'
     }

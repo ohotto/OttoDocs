@@ -9,13 +9,13 @@ hero:
   actions:
     - theme: brand
       text: 云端实践
-      link: /cloud/
+      link: /cloud/VPS/scripts
     - theme: alt
       text: 本地实践
-      link: /local/
+      link: /local/env/git
     - theme: alt
       text: 软件技巧
-      link: /apps/
+      link: /apps/ai/sd
 
 features:
   - icon: ☁️
