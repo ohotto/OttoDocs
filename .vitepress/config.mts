@@ -39,6 +39,7 @@ const vitepressSidebarOptions = [
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: './docs',
+  base: '/OttoDocs/',
   title: "Otto's 记不住文档",
   description: "能查就不用记！",
   themeConfig: {
