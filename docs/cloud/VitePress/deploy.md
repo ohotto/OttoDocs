@@ -1,6 +1,6 @@
 ---
 title: Deploy to GitHub
-order: 0.5
+order: 1
 outline: 'deep'
 ---
 
