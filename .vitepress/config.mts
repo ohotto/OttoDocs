@@ -91,5 +91,8 @@ export default defineConfig({
       provider: 'local'
     }
   },
-  cleanUrls: true
+  cleanUrls: true,
+  markdown: {
+    math: true
+  }
 })
