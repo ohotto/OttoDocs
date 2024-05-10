@@ -1,5 +1,5 @@
 ---
-title: 树莓派4B
+title: 树莓派4B Setup
 order: 0
 outline: 'deep'
 ---
@@ -150,7 +150,7 @@ chmod 600 ~/.ssh/authorized_keys
 
 点击左侧”远程资源管理器“，修改SSH配置文件
 
-![alt text](pi4b1.png)
+![alt text](imgs/pi4b/image.png)
 
 ```Shell
 Host 192.168.3.66
@@ -165,7 +165,7 @@ Host 192.168.3.66
 
 刷新列表后出现添加的配置，点击连接
 
-![alt text](<pi4b2.png>)
+![alt text](<imgs/pi4b/image-1.png>)
 
 
 

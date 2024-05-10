@@ -182,10 +182,16 @@ git push
 git branch <branch>
 ```
 
-### branch 查看分支
+### --list 查看分支
 
 ```sh
 git branch --list
+```
+
+### -d 删除分支
+
+```sh
+git branch -d <branch>
 ```
 
 ### switch 切换分支
