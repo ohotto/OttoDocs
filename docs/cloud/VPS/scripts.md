@@ -35,7 +35,7 @@ wget --no-check-certificate -O "besttrace.zip" https://raw.githubusercontent.com
 ./besttrace -g cn -q 1 -6 <ipv6>
 ```
 
-::: details 常用测试ip：
+::: details 常用测试ipv4：
 
 | 地区   | 电信            | 移动            | 联通           |
 |--------|-----------------|-----------------|---------------|
@@ -72,6 +72,23 @@ wget --no-check-certificate -O "besttrace.zip" https://raw.githubusercontent.com
 | 天津   | 42.81.98.35     | 111.31.236.35   | 116.78.119.56 |
 | 重庆   | 119.84.131.101  | 221.178.81.101  | 113.207.69.190|
 
+:::
+
+::: details 常用测试ip（双栈域名版）：
+| 地区/运营商 | 域名                   |
+|------------|------------------------|
+| 广州电信   | gz.telecom.818198.xyz  |
+| 广州联通   | gz.unicom.818198.xyz   |
+| 广州移动   | gz.mobile.818198.xyz   |
+| 广州教育   | gz.edu.818198.xyz      |
+| 上海电信   | sh.telecom.818198.xyz  |
+| 上海联通   | sh.unicom.818198.xyz   |
+| 上海移动   | sh.mobile.818198.xyz   |
+| 上海教育   | sh.edu.818198.xyz      |
+| 北京电信   | bj.telecom.818198.xyz  |
+| 北京联通   | bj.unicom.818198.xyz   |
+| 北京移动   | bj.mobile.818198.xyz   |
+| 北京教育   | bj.edu.818198.xyz      |
 :::
 
 ## VPS 常用安装
