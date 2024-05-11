@@ -1,7 +1,7 @@
 ---
 title: C++ 基础篇
 order: 0
-outline: 2
+outline: [2,3]
 ---
 
 # C++ Learning Note - 基础篇
@@ -492,15 +492,15 @@ if语句的三种形式
 
 1. 单行格式if语句：`if(条件){ 条件满足执行的语句 }`
 
-![alt text](imgs/image.png)
+![alt text](imgs/cppstd/image.png)
 
 2. 多行格式if语句：`if(条件){ 条件满足执行的语句 }else{ 条件不满足执行的语句 };`
 
-![alt text](imgs/image-1.png)
+![alt text](imgs/cppstd/image-1.png)
 
 3. 多条件的if语句：`if(条件1){ 条件1满足执行的语句 }else if(条件2){条件2满足执行的语句}... else{ 都不满足执行的语句}`
 
-![alt text](imgs/image-2.png)
+![alt text](imgs/cppstd/image-2.png)
 
 
 
@@ -564,7 +564,7 @@ switch(表达式)
 
 **解释**：只要循环条件的结果为真，就执行循环语句
 
-![alt text](imgs/image-3.png)
+![alt text](imgs/cppstd/image-3.png)
 
 > 注意：在执行循环语句时候，程序必须提供跳出循环的出口，否则出现死循环
 
@@ -576,7 +576,7 @@ switch(表达式)
 
 **注意**：与while的区别在于do...while会先执行一次循环语句，再判断循环条件
 
-![alt text](imgs/image-4.png)
+![alt text](imgs/cppstd/image-4.png)
 
 > 总结：与while循环区别在于，do...while先执行一次循环语句，再判断循环条件
 
