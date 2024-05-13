@@ -16,6 +16,12 @@ bash <(wget -qO- -o- https://github.com/233boy/Xray/raw/main/install.sh)
 xray
 ```
 
+> 一键hysteria2
+
+```sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/Misaka-blog/hysteria-install/main/hy2/hysteria.sh && bash hysteria.sh
+```
+
 > 一键alpine-hysteria2
 
 ```sh
