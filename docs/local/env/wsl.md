@@ -148,4 +148,9 @@ netsh int ipv4 set dynamic tcp start=49152 num=16384
 netsh int ipv6 set dynamic tcp start=49152 num=16384
 ```
 
-然后**重启电脑**即可
+然后**重启winnat服务**即可
+
+```ps
+net stop winnat
+net start winnat
+```
