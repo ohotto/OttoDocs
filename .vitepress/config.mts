@@ -47,7 +47,7 @@ export default defineConfig({
     nav: [
       { text: '云端实践', link: '/cloud/VPS/scripts' },
       { text: '本地实践', link: '/local/env/git' },
-      { text: '软件技巧', link: '/apps/web/bing' }
+      { text: '软件技巧', link: '/apps/tools/yt-dlp' }
     ],
     // nav: [
     //   { 

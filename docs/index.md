@@ -15,7 +15,7 @@ hero:
       link: /local/env/git
     - theme: alt
       text: 软件技巧
-      link: /apps/web/bing
+      link: /apps/tools/yt-dlp
 
 features:
   - icon: ☁️
