@@ -29,6 +29,12 @@ wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe
 
 ## 使用
 
+一键下载最高画质（可能是webm格式）
+
+```ps
+./yt-dlp -f "bv+ba/b" <URL>
+```
+
 一键下载最高画质mp4格式
 
 ```ps
