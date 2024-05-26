@@ -35,7 +35,7 @@ wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe
 ./yt-dlp -f "bv+ba/b" <URL>
 ```
 
-一键下载最高画质mp4格式
+一键下载最高画质mp4格式（可能不是最高画质）
 
 ```ps
 ./yt-dlp -f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4] / bv*+ba/b" <URL>
