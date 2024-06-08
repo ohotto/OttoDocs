@@ -33,6 +33,16 @@ const vitepressSidebarOptions = [
     underscoreToSpace: true,
     sortMenusByFrontmatterOrder: true,
     useFolderTitleFromIndexFile: true
+  },
+  {
+    documentRootPath: '/docs',
+    scanStartPath: 'P5R',
+    resolvePath: '/P5R/',
+    useTitleFromFrontmatter: true,
+    hyphenToSpace: true,
+    underscoreToSpace: true,
+    sortMenusByFrontmatterOrder: true,
+    useFolderTitleFromIndexFile: true
   }
 ];
 
