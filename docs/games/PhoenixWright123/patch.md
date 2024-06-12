@@ -12,7 +12,7 @@ outline: 'deep'
 
 ## 下载地址
 
-- [本站下载](./assets/Assembly-CSharp.zip)
+- [本站下载](/Assembly-CSharp.zip)
 - [OneDrive](https://1drv.ms/f/c/b5132cc7b2a40383/EnXcs6V2YNpOr4e_E_fQ_QkBSocItlBS_kwPxJdACv2rCQ?e=9941CI)
 
 
