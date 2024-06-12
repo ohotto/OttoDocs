@@ -36,8 +36,18 @@ const vitepressSidebarOptions = [
   },
   {
     documentRootPath: '/docs',
-    scanStartPath: 'P5R',
-    resolvePath: '/P5R/',
+    scanStartPath: 'games/P5R',
+    resolvePath: '/games/P5R/',
+    useTitleFromFrontmatter: true,
+    hyphenToSpace: true,
+    underscoreToSpace: true,
+    sortMenusByFrontmatterOrder: true,
+    useFolderTitleFromIndexFile: true
+  },
+  {
+    documentRootPath: '/docs',
+    scanStartPath: 'games/PhoenixWright123',
+    resolvePath: '/games/PhoenixWright123/',
     useTitleFromFrontmatter: true,
     hyphenToSpace: true,
     underscoreToSpace: true,
